@@ -9,7 +9,7 @@ arrayMadness([4, 5, 6], [1, 2, 3]); // returns true since 4 ** 2 + 5 ** 2 + 6 **
 // My Solution:
 
 // Reduce each array, a squared, b cubed
-// Compare arrays
+// Compare array, will return true if correct
 
 function arrayMadness(a, b) {
   return (
