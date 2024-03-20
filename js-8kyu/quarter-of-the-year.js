@@ -14,16 +14,16 @@ const quarterOf = (month) => {
 
 // Other Solutions:
 
-const querterOf = (month) => Math.ceil(month / 3);
+// const querterOf = (month) => Math.ceil(month / 3);
 
-const quarterOf = (month) => {
-  if (month <= 3) {
-    return 1;
-  } else if (month <= 6) {
-    return 2;
-  } else if (month <= 9) {
-    return 3;
-  } else {
-    return 4;
-  }
-};
+// const quarterOf = (month) => {
+//   if (month <= 3) {
+//     return 1;
+//   } else if (month <= 6) {
+//     return 2;
+//   } else if (month <= 9) {
+//     return 3;
+//   } else {
+//     return 4;
+//   }
+// };
