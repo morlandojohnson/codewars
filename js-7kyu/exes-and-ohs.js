@@ -19,14 +19,17 @@ Push x, o to arrays
 compare length of arrays
 */
 
-function xo(str) {
+function XO(str) {
   let arr1 = [];
   let arr2 = [];
   for (let i = 0; i < str.length; i++) {
     if (str[i].toLowerCase() === "x") {
       arr1.push(i);
+    } else if (str[i].toLowerCase() === "o") {
+      arr2.push(i);
     }
   }
+  return arr1.length === arr2.length;
 }
 
 // Other Solution:
