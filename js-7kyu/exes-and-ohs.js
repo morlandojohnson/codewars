@@ -33,3 +33,16 @@ function XO(str) {
 }
 
 // Other Solution:
+
+const XO = (str) => {
+  str = str.toLowerCase().split("");
+  return (
+    str.filter((x) => x === "x").length === str.filter((x) => x === "o").length
+  );
+};
+
+function XO(str) {
+  return (
+    str.toLowerCase().split("x").length === str.toLowerCase().split("o").length
+  );
+}
