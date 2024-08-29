@@ -11,7 +11,7 @@ Example:
 
 /*
 We can convert the string to an array, then use map to iterate through the array to replace 'a' with 'b' and vice versa.
-We can then use join() to convert back to string.
+We can then use join() to convert back to string. 
 */
 
 function switcheroo(x) {
@@ -35,8 +35,4 @@ function switcheroo(x) {
     }
   }
   return str;
-}
-
-function switcheroo(str) {
-  return str.replaceAll("a", "_").replaceAll("b", "a").replaceAll("_", "b");
 }
